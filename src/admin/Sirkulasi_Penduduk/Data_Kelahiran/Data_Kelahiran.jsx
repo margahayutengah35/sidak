@@ -4,9 +4,9 @@ import { useLocation, useSearchParams, Link } from "react-router-dom";
 import { Printer, Eye, Edit, Trash2, FileText, UserPlus } from "lucide-react";
 import supabase from "../../../supabaseClient";
 import jsPDF from "jspdf";
-import "jsPDF/fonts/arial-normal.js";
-import "jsPDF/fonts/arialbd-bold.js";
-import "jsPDF/fonts/ariali-italic.js";
+import "@/jsPDF/fonts/arial-normal.js";
+import "@/jsPDF/fonts/arialbd-bold.js";
+import "@/jsPDF/fonts/ariali-italic.js";
 
 function Data_Kelahiran() {
   const [allData, setAllData] = useState([]);
