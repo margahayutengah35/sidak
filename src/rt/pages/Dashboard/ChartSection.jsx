@@ -13,6 +13,7 @@ function ChartSection() {
       </div>
     </div>
   );
+  
 }
 
 export default ChartSection;

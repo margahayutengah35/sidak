@@ -9,6 +9,6 @@ function Dashboard() {
       <ChartSection />
     </div>
   );
+   
 }
-
 export default Dashboard;
