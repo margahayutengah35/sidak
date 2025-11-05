@@ -3,9 +3,9 @@ import { useLocation, useNavigate, Link } from "react-router-dom";
 import { Printer, Edit, Trash2, FileText } from "lucide-react";
 import supabase from "../../../supabaseClient";
 import { jsPDF } from "jspdf";
-import "@/../../../../jsPDF/fonts/arial-normal.js";
-import "@/../../../../jsPDF/fonts/arialbd-bold.js";
-import "@/../../../../jsPDF/fonts/ariali-italic.js";
+import "../../../../jsPDF/fonts/arial-normal.js";
+import "../../../../jsPDF/fonts/arialbd-bold.js";
+import "../../../../jsPDF/fonts/ariali-italic.js";
 
 function Data_Pindah() {
   const [allData, setAllData] = useState([]);
