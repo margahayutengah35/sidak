@@ -72,10 +72,11 @@ import Detail_Kelahiran from "./admin/Sirkulasi_Penduduk/Data_Kelahiran/Detail_K
 import DetailPindah from "./rt/pages/SirkulasiPenduduk/DataPindah/DetailPindah";
 import DetailDataPindah from "./rw/pages/RwSirkulasiPenduduk/DataPindah/DetailDataPindah";
 import Penduduk_Update from "./admin/Permintaan_ACC/Penduduk_Update";
-import Pindah_Update from "./admin/Permintaan_ACC/pindah_update";
+import Pindah_Update from "./admin/Permintaan_ACC/Pindah_Update";
 import Kematian_Update from "./admin/Permintaan_ACC/Kematian_Update";
-import Kelahiran_Update from "./admin/Permintaan_ACC/kelahiran_update";
-import Pendatang_Update from "./admin/Permintaan_ACC/pendatang_update";
+import Kelahiran_Update from "./admin/Permintaan_ACC/Kelahiran_Update";
+import Pendatang_Update from "./admin/Permintaan_ACC/Pendatang_Update";
+
 
 function App() {
   const [userRole, setUserRole] = useState(() => localStorage.getItem("userRole"));
