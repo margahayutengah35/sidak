@@ -30,7 +30,7 @@ import DashboardLayoutRw from "./rw/pages/Layouts/DashboardLayoutRw";
 import RwKelolaData from "./rw/pages/RwKelolaData/DataPenduduk";
 import DetailPerRT from "./rw/pages/RwKelolaData/DetailPerRT";
 import DetailDataPendudukRT from "./rw/pages/RwKelolaData/DetailDataPendudukRT";
-import DataKKPerRT from "./rw/pages/RwKelolaData/DataKKPerRt";
+import DataKKPerRT from "./rw/pages/RwKelolaData/DataKKPerRT";
 import DetailKKPerRT from "./rw/pages/RwKelolaData/DetailKKPerRT";
 import AnggotaKKPerRT from "./rw/pages/RwKelolaData/AnggotaKKPerRT";
 import AnggotaKK from "./rw/pages/RwKelolaData/AnggotaKK";
