@@ -5,9 +5,9 @@ import supabase from "../../supabaseClient";
 import { Upload } from "lucide-react"; 
 import jsPDF from "jspdf";
 import logo from "../../assets/logo_desa.png";
-import "@/jsPDF/fonts/arial-normal.js";
-import "@/jsPDF/fonts/arialbd-bold.js";
-import "@/jsPDF/fonts/ariali-italic.js";
+import "@/../../fonts/arial-normal.js";
+import "@/../../jsPDF/fonts/arialbd-bold.js";
+import "@/../../jsPDF/fonts/ariali-italic.js";
 
 function Data_Penduduk() {
   const location = useLocation();

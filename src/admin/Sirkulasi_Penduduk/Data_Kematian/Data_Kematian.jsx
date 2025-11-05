@@ -3,8 +3,8 @@ import { useLocation, Link } from "react-router-dom";
 import { Printer, Edit, Trash2, FileText, UserPlus } from "lucide-react";
 import supabase from "../supabaseClient";
 import jsPDF from "jspdf";
-import "@/jsPDF/fonts/arial-normal.js";
-import "@/jsPDF/fonts/arialbd-bold.js";
+import "@/../../../jsPDF/fonts/arial-normal.js";
+import "@/../../../jsPDF/fonts/arialbd-bold.js";
 
 function Data_Kematian() {
   const [allData, setAllData] = useState([]);
